@@ -1,0 +1,17 @@
+name: Feature request
+description: Suggest an improvement to the benchmark or documentation.
+title: "[Request] "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or use case
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+      description: Explain your proposed solution and any alternatives.
+    validations:
+      required: true
